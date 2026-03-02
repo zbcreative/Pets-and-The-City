@@ -59,7 +59,7 @@
         "description": "Professional pet sitting and dog walking services in Kansas City, MO. Specializing in dog walks, drop-in visits, and overnight pet care with personalized attention.",
         "url": "https://petsandthecitykc.com",
         "telephone": "+17015093856",
-        "email": "hello@petsandthecitykc.com",
+        "email": "petsandthecitykc@gmail.com",
         "priceRange": "$$",
         "paymentAccepted": "Cash, Venmo, Zelle",
         "currenciesAccepted": "USD",
@@ -1839,7 +1839,7 @@
     const emailLinks = document.querySelectorAll('a[href*="email-protection"]');
     emailLinks.forEach(link => {
       // Replace with direct mailto link
-      const email = 'hello@petsandthecitykc.com';
+      const email = 'petsandthecitykc@gmail.com';
       link.href = 'mailto:' + email;
       if (link.textContent.includes('email-protection')) {
         link.textContent = email;
@@ -1850,9 +1850,9 @@
     const footerEmailLinks = document.querySelectorAll('.footer-contact-email');
     footerEmailLinks.forEach(link => {
       if (link.href.includes('tel:')) return; // Skip phone links
-      link.href = 'mailto:hello@petsandthecitykc.com';
+      link.href = 'mailto:petsandthecitykc@gmail.com';
       if (link.textContent && !link.textContent.includes('@')) {
-        link.textContent = 'hello@petsandthecitykc.com';
+        link.textContent = 'petsandthecitykc@gmail.com';
       }
     });
   });
